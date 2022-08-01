@@ -27,5 +27,7 @@ sh1.row(6).height = 10*256
 
 sy = xlwt.XFStyle()
 sy.font = ft
+sy.alignment = alignment 
 sh1.write(0,0,'神奇',sy)
+sh1.write(2,3,"清风明月找我行", sy)
 wb.save('003.xlsx')

@@ -16,4 +16,19 @@ sh1.write(1,2,'99')
 sh1.write(1,3,'施耐庵')
 sh1.write(1,4,'1000')
 
-wb.save("002.xlsx")
+
+sh1.write(2,0,'隋唐演义')
+sh1.write(2,1,'大唐国际')
+sh1.write(2,2,'88')
+sh1.write(2,3,'不清楚')
+sh1.write(2,4,'888')
+
+
+sh1.write(3,0,'三国演义')
+sh1.write(3,1,'后焊国际')
+sh1.write(3,2,'66')
+sh1.write(3,3,'不清楚')
+sh1.write(3,4,'777')
+
+
+wb.save("004.xlsx")
